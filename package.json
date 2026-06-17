@@ -1,6 +1,7 @@
 {
   "name": "noventiq-assignment",
   "version": "1.0.0",
+  "author": "abhisheksanger1994@gmail.com",
   "type": "module",
   "scripts": {
     "test": "playwright test",

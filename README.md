@@ -155,3 +155,7 @@ npx playwright show-report
 - The test suite is intentionally small and specifically validates login page behavior.
 - Since the project is configured as an ES module, imports include `.js` extensions.
 - If you want TypeScript-based tests, convert `tests/` and `pages/` files to `.ts` and update Playwright config accordingly.
+
+## Contributors
+
+- abhisheksanger1994@gmail.com
