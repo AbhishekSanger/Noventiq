@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "test": "playwright test"
+    "test": "playwright test",
+    "show-report": "playwright show-report"
   },
   "devDependencies": {
     "@playwright/test": "^1.61.0",
