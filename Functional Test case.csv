@@ -1,0 +1,11 @@
+Test Case ID,Type,Scenario Description,Expected Result,Automated?
+TC-01,Positive,Login with valid username (student) and valid password (Password123).,"Success message ""Logged In Successfully"" is displayed.",Yes
+TC-02,Positive,Verify URL changes to the correct landing page after successful login.,URL ends with /logged-in-successfully/.,Yes
+TC-03,Positive,"Verify that the ""Log out"" button appears and functions on the success page.",User is redirected back to the login page after clicking logout.,No
+TC-04,Positive,Verify input field behavior (placeholders are correct and fields can be focused).,Fields accept inputs cleanly and display accurate placeholders.,No
+TC-05,Positive,Verify UI responsiveness and elements alignment on standard resolutions.,"Form is vertically aligned, legible, and elements do not overlap.",No
+TC-06,Negative,Login with an invalid username and valid password.,"Error message ""Your username is invalid!"" appears.",Yes
+TC-07,Negative,Login with a valid username and invalid password.,"Error message ""Your password is invalid!"" appears.",Yes
+TC-08,Negative,Submit the login form with completely blank input fields.,Error message indicating required fields or invalid username appears.,No
+TC-09,Negative,Attempt SQL injection payload or special characters in the text fields.,Application securely rejects input or displays generic invalid validation.,No
+TC-10,Negative,Attempt to bypass login by manually navigating to the success URL directly.,Application redirects unauthorized session back to the login page.,No
